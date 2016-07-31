@@ -51,7 +51,7 @@ def count_status_codes(logfile):
     counter = Counter(status_codes)
 
     for codes in counter.items():
-        print "There are {} occurenses of HTTP status code {}".format(codes[1],
+        print "There are {} occurrences of HTTP status code {}".format(codes[1],
                                                                       codes[0])
 
 def main():
